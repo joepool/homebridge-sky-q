@@ -1,8 +1,8 @@
 # homebridge-sky-q-no-logs
 
-[Homebridge](https://github.com/nfarina/homebridge) plugin to turn on/off a Sky Q box and send custom commands (such as channel shortcuts or record)
-
 This is a fork wich stops unnecessarily logging the state of Sky Q clogging up log files.
+
+[Homebridge](https://github.com/nfarina/homebridge) plugin to turn on/off a Sky Q box and send custom commands (such as channel shortcuts or record)
 
 ## Installation
 

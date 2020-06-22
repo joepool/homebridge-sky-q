@@ -1,12 +1,12 @@
 {
-  "name": "homebridge-sky-q",
-  "version": "0.0.3",
+  "name": "homebridge-sky-q-no-logs",
+  "version": "1.0.0",
   "description": "Homebridge plugin to turn on/off a Sky Q box.",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AdamSwinden/homebridge-sky-q.git"
+    "url": "git+https://github.com/joepool/homebridge-sky-q-no-logs.git"
   },
   "keywords": [
     "homebridge-plugin",
@@ -16,12 +16,12 @@
     "sky-q",
     "skyq"
   ],
-  "author": "Adam Swinden <me@swinden.com> (http://swinden.com)",
+  "author": "joepool <joepool2003@icloud.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AdamSwinden/homebridge-sky-q/issues"
+    "url": "https://github.com/joepool/homebridge-sky-q-no-logs/issues"
   },
-  "homepage": "https://github.com/AdamSwinden/homebridge-sky-q#readme",
+  "homepage": "https://github.com/joepool/homebridge-sky-q-no-logs#readme",
   "dependencies": {
     "sky-remote": "^1.1.0",
     "sky-q": "^1.0.2"
