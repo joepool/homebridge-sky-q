@@ -190,10 +190,10 @@ SkyQAccessory.prototype = {
 			this.box.getPowerState().then(isOn=>{
 	  		if (isOn) {
 
-			    this.log(this.name + " is on :-)")
+			    //this.log(this.name + " is on :-)")
 			  } else {
 
-			    this.log(this.name + " is in standby :-(")
+			    //this.log(this.name + " is in standby :-(")
 			  }
 			  callback(null, isOn);
 
