@@ -9,7 +9,7 @@ This is a fork wich stops unnecessarily logging the state of Sky Q clogging up l
 Install the plugin globally using npm.
 
 ```
-npm install -g homebridge-sky-q
+npm install -g homebridge-sky-q-no-logs
 ```
 
 ## Configuration
