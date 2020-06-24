@@ -15,6 +15,7 @@ npm install -g homebridge-sky-q-no-logs
 ## Configuration
 
 Add this to your `~/.homebridge/config.json` as an accessory:
+This will simply add a power switch to HomeKit
 ```
 {
 	"accessory": "SkyQ",
