@@ -47,7 +47,7 @@ SkyQAccessory.prototype = {
 		
 
 		function sendCmd(callBacked) {
-			log('Sending "' + cmd + '" command to ' + name + '...');
+			//log('Sending "' + cmd + '" command to ' + name + '...');
 
 			if (cmd.length > 6 && callBacked === false) {
 				// If it's a long command string that will take a while, immedately callback() to avoid Siri timeout
@@ -70,7 +70,7 @@ SkyQAccessory.prototype = {
 
 							skyQ.press('sky', function(error) {
 
-								log('Sending "sky" command to ' + name + '...');
+								//log('Sending "sky" command to ' + name + '...');
 
 			                	       		if (error) {
 
@@ -114,7 +114,7 @@ SkyQAccessory.prototype = {
 					log(name + " is in standby :-(")
 					skyQ.press(['power','backup'], function(error) {
 
-						log('Sending "power,backup" command to ' + name + '...');
+						//log('Sending "power,backup" command to ' + name + '...');
 
 						if (error) {
 
@@ -128,7 +128,7 @@ SkyQAccessory.prototype = {
 
 							skyQ.press(['sky','backup'], function(error) {
 
-								log('Sending "sky,backup" command to ' + name + '...');
+								//log('Sending "sky,backup" command to ' + name + '...');
 								if (error) {
 
 									log('Failed to send cmd ' + name + '. ' + error);
