@@ -1,0 +1,42 @@
+{
+  "pluginAlias": "SkyQ",
+  "pluginType": "accessory",
+  "footerDisplay": "For help please see the [wiki](https://github.com/joepool/homebridge-sky-q-no-logs).",
+  "singular": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "required": true,
+        "default": "Sky Q Power",
+        "description": "Name of the Switch"
+      },
+      "ipAddress": {
+        "title": "IP Address",
+        "type": "string",
+        "required": true,
+        "default": "192.168.0.0",
+        "format": "ipv4",
+        "description": "The IPv4 address of your Sky Q Box"
+      },
+      "cmd": {
+        "title": "Commands",
+        "type": "string",
+        "required": false,
+        "description": "Command on switch. A full list of commands can be found in the readme"
+      },
+      "delayed": {
+        "title": "Delayed",
+        "type": "boolean",
+        "required": false
+      },
+      "autoOn": {
+        "title": "Auto On",
+        "type": "boolean",
+        "required": false
+      }
+    }
+  }
+}
