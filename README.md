@@ -1,5 +1,8 @@
 # homebridge-sky-q-no-logs
 
+[![npm](https://badgen.net/npm/v/homebridge-sky-q-no-logs/latest)](https://www.npmjs.com/package/homebridge-sky-q-no-logs) 
+[![npm](https://badgen.net/npm/dt/homebridge-sky-q-no-logs)](https://www.npmjs.com/package/homebridge-sky-q-no-logs)
+
 This is a fork wich stops unnecessarily logging the state of Sky Q clogging up log files.
 
 [Homebridge](https://github.com/nfarina/homebridge) plugin to turn on/off a Sky Q box and send custom commands (such as channel shortcuts or record)
