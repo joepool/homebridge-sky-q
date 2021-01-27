@@ -211,6 +211,13 @@ SkyQAccessory.prototype = {
 
 	getServices: function() {
 
+	var informationService = new Service.AccessoryInformation();
+
+    informationService
+        .setCharacteristic(Characteristic.Manufacturer, "Sky")
+        .setCharacteristic(Characteristic.Model, `Q`)
+        .setCharacteristic(Characteristic.SerialNumber, this.config.ipAddress);
+
 		var switchService = new Service.Switch(this.name);
 
 		var characteristic = switchService.getCharacteristic(Characteristic.On).on('set', this.setPowerState.bind(this));
@@ -218,7 +225,7 @@ SkyQAccessory.prototype = {
 		characteristic.on('get', this.getState.bind(this));
 
 		this.service = switchService;
-
-		return [switchService];
+		var services = [informationService, switchService]
+		return services;
 	}
 };
