@@ -1,6 +1,6 @@
 {
   "name": "homebridge-sky-q-no-logs",
-  "version": "1.3.0-beta.0",
+  "version": "1.3.0",
   "description": "Homebridge plugin to turn on/off a Sky Q box.",
   "main": "index.js",
   "scripts": {},
