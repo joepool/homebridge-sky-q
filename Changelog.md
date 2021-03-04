@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.1 (2021-03-04)
+This update includes the following changes:
+
+* Fix error that causes homebridge to crash when status is checked on a Sky Q box from an automation.   
+
 ## 1.3.0 (2021-03-04)
 This update includes the following changes:
 
