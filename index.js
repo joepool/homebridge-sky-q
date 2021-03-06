@@ -89,7 +89,7 @@ SkyQAccessory.prototype = {
 						callback();
 					}
 					setTimeout(function() {
-						switchService.updateCharacteristic(Characteristic.On).getValue(null, funcContext);
+						switchService.getCharacteristic(Characteristic.On).getValue(null, funcContext);
 					}, 1000);
 				}
 			});
@@ -161,8 +161,8 @@ SkyQAccessory.prototype = {
 				if ((isOn && state === 'on') || (!isOn && state === 'off')) {
 					callback();
 					setTimeout(function() {
-						switchService.getCharacteristic(Characteristic.On).updateValue(1000, funcContext);
-					},);
+						switchService.getCharacteristic(Characteristic.On).getValue(null, funcContext);
+					}, 1000);
 
 				} else {
 					sendCmd(false);
